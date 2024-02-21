@@ -20,7 +20,7 @@ x = (21 * subtotal) / 100
   <div>
     <label >sub total</label>
     <input v-model="subTotal" type="number" />
-    <h3 v-custom-size2:xxl>total impuestos a pagar: {{ totalVat }} ({{ vat }}%)</h3>
+    <h3 v-custom-font.xxl.red>total impuestos a pagar: {{ totalVat }} ({{ vat }}%)</h3>
   </div>
 </template>
 
